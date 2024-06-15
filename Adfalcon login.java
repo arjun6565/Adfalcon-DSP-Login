@@ -26,10 +26,10 @@ public class Adfalcon {
         }
 		
 		WebElement UserName = driver.findElement(By.id("txtUsername"));
-		UserName.sendKeys("vaibhav@arabyads.com");
+		UserName.sendKeys("abc@arabyads.com");
 		
 		WebElement Password= driver.findElement(By.id("txtPassword"));
-		Password.sendKeys("Araby@ds@2023");
+		Password.sendKeys("A1234566");
 		
 		driver.findElement(By.id("btnLogin")).click();
 		
